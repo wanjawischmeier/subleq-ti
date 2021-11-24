@@ -2,20 +2,25 @@
 An interpretation of the [subleq esolang](https://esolangs.org/wiki/Subleq) that runs on a basic calculator.
 _(Tested on Texas Instruments TI-30X Pro MultiView)_
 
+<br></br>
 
-## Programming the interpreter
-
-### Memory access
+## Memory access
 - `2nd` + <code><sup>⨯</sup>/<sub>set op</sub></code>
-- <code>(a-min(max(x-7,0),1)(a-b) and <b>F</b>h16<sup>7-mod(x,8</sup>)/16<sup>7-mod(x,8</sup></code>
+- <code>(*a*-min(max(*x*-7,0),1)(*a*-*b*) and <b>F</b>h16<sup>7-mod(*x*,8</sup>)/16<sup>7-mod(*x*,8</sup></code>
 - 2x `enter`
 
-### Supleq operation 
+---
+<br></br>
+
+## Supleq operation 
 - `table` + `2`
-- <code>f(t+2)-min(max(f(f(t))-f(f(t+1)),0),1(f(t+2)-(t+3)))→t</code>
+- <code>f(*t*+2)-min(max(f(f(*t*))-f(f(*t*+1)),0),1(f(*t*+2)-(*t*+3)))→*t*</code>
 - `enter` + `2nd` + <code><sup>mode</sup>/<sub>quit</sub></code>
 
-### Special keys used
+---
+<br></br>
+
+## Special keys used
 |Key|Path|||||||
 |-|-|-|-|-|-|-|-|
 |min|`math`|+|`ᐅ`|+|`6`|
